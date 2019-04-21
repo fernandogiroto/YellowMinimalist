@@ -1,0 +1,135 @@
+/* 01 - GENERAL STYLES */
+/* 02 - BOOTSTRAP */
+/* 03 - FLICKITY STYLES (CAROUSEL) */
+/* 04 - PERSONAL STYLES */
+
+
+h1, h2, h3, h4{
+    font-family: 'Dokdo', cursive;
+}
+a{
+    font-family: 'Dokdo', cursive;
+    font-size: 25px;
+}
+p{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+/* 02 - BOOTSTRAP */
+.text-warning {
+    color: #fede01!important;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #FEDE01;
+}
+
+.form-control {
+    padding: 1.375rem .75rem;
+}
+
+/* 02 - BUTTONS */
+.btn {
+    font-family: 'Dokdo', sans-serif;
+    font-size: 28px;
+}
+.btn-warning {
+    color: #212529;
+    background-color: #FEDE01;
+    border-color: #FEDE01;
+}
+.btn-warning:hover {
+    color: #FEDE01;
+    background-color: #000000;
+    border-color: #000000;
+}
+.btn-dark:hover {
+    color: #000000;
+    background-color: #FEDE01;
+    border-color: #FEDE01;
+}
+
+/* 02 - BACKGROUNDS */
+.bg-warning {
+    background-color: #FEDE01!important;
+}
+
+/* 02 - NAVBARS */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000000;
+    background-color:#FEDE01;
+}
+
+/* 02 - BORDERS */
+.border-hover{
+    transition-duration: 0.3s;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.border-hover:hover{
+    border:1px solid #000000;
+    transition-duration: 0.2s;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+/* 03 - FLICKITY STYLES (CAROUSEL) */
+.carousel {
+    background: #FAFAFA;
+  }
+  
+  .carousel-cell {
+    width: 28%;
+    height: 200px;
+    margin-right: 10px;
+    background: #FEDE01;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  /* 04 - PERSONAL STYLES */
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 21px;
+    border: none;
+    outline: none;
+    background-color: #feDE01;
+    color: #000000;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    font-family: 'Dokdo', cursive;
+  }
+  
+  #myBtn:hover {
+    background-color: #000000;
+    color: #FEDE01
+  }
+
+  .hover-effect {
+    color: #FEDE01;
+    transition-duration: 0.3s;
+  }
+  .hover-effect:hover {
+    color: #000000;
+    transition-duration: 0.2s;
+  }
