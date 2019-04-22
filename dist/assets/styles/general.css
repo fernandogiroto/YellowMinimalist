@@ -24,10 +24,10 @@ a {
 
 /* 02 - BOOTSTRAP */
 .text-warning {
-    color: #fede01!important;
+    color: #F4D10B!important;
 }
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #FEDE01;
+    color: #F4D10B;
 }
 
 .form-control {
@@ -41,29 +41,29 @@ a {
 }
 .btn-warning {
     color: #212529;
-    background-color: #FEDE01;
-    border-color: #FEDE01;
+    background-color: #F4D10B;
+    border-color: #F4D10B;
 }
 .btn-warning:hover {
-    color: #FEDE01;
+    color: #F4D10B;
     background-color: #000000;
     border-color: #000000;
 }
 .btn-dark:hover {
     color: #000000;
-    background-color: #FEDE01;
-    border-color: #FEDE01;
+    background-color: #F4D10B;
+    border-color: #F4D10B;
 }
 
 /* 02 - BACKGROUNDS */
 .bg-warning {
-    background-color: #FEDE01!important;
+    background-color: #F4D10B!important;
 }
 
 /* 02 - NAVBARS */
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #000000;
-    background-color:#FEDE01;
+    background-color:#F4D10B;
 }
 
 /* 02 - BORDERS */
@@ -112,7 +112,7 @@ a {
     font-size: 21px;
     border: none;
     outline: none;
-    background-color: #feDE01;
+    background-color: #F4D10B;
     color: #000000;
     cursor: pointer;
     padding: 15px;
@@ -122,11 +122,11 @@ a {
   
   #myBtn:hover {
     background-color: #000000;
-    color: #FEDE01
+    color: #F4D10B
   }
 
   .hover-effect {
-    color: #FEDE01;
+    color: #F4D10B;
     transition-duration: 0.3s;
   }
   .hover-effect:hover {
